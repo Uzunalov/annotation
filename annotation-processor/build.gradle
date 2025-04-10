@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+jar {
+    enabled = true
+}
+
+dependencies {
+}
